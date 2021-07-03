@@ -1,17 +1,17 @@
-var section = document.querySelectorAll('.section');
-	var sections = {};
-	section.forEach(function(e){
-		console.log(e.id, e.offsetTop);
-		section[e.id] = e.offsetTop;
-	})
-	window.onscroll = function(){
-		var scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
-		console.log(scrollPos);
-		for(var x in sections){
-			if(sections[x]<=scrollPos){
-				document.querySelector('.active').setAttribute('class','');
-				document.querySelector('a[href*='+x+']').setAttribute('class','active');
-			}
-		}
-	}
-	
+//fucntion that display value
+function dis(val){
+	document.getElementById("result").value+=val
+}
+
+//function that evaluates the digit and return result
+function solve(){
+	let x = document.getElementById("result").value
+	let y = eval(x)
+	document.getElementById('result').value=y
+}
+
+//function that clear the display
+function clr() {
+	// body...
+	document.getElementById("result").value=""
+}

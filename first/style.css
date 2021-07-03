@@ -1,99 +1,32 @@
-<style>
-		@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-	</style>
-	body{
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		font-family: 'Ubuntu', sans-serif;
-	}
-	img{
-		float: left;
-		border: 4px solid white;
-		margin: 5px;
-	}
-	#mast{
-		width:	100%;
-		background-color: #ddd;
-		height:50px;
-		margin-top:20px;
-		position: fixed;
-	}
-	/*.container{
-		max-width: 1040px;
-		border: 1px solid black;
-		margin: 0 auto;
-	}*/
-	.section{
-		border: 1px solid #ddd;
-		min-height: 500px;
-		background-color: #fff;
-	}
-	#nav{
-		float: right;
-		margin-top: 5px;
-		width: 600px;
-	}
-		#nav ul{
-			list-style: none;
-			margin: 0 auto;
-			display: block;
-		}
-		#nav li{
-			float: left;
-			padding: 10px;
-			margin: 2px;
-			background-color: black;
-		}
-		#nav li a{
-			text-decoration: none;
-			font-size: 1em;
-			color: white;
-		}
-		#nav li a.active{
-			border-bottom: 3px solid yellow;
-			color: yellow;
-		}
-		#nav li a:hover{
-			color: orangered;
-		}
-		.clear{
-			clear: both;
-		}
-		.wrap{
-			background-color: rgb(200, 200, 200);
-			background-color: rgba(200, 200, 200, 0.5);
-			border-radius: 20px;
-			padding: 20px;
-			margin: 40px auto;
-			width: 70%;
-			margin-top: 100px;
+.body{
+	max-width: 400px;
+  	margin: auto;
+  	padding-top: 200px;
+}
+.title{
+	margin-bottom: 10px;
+	text-align: center;
+	width: 500px;
+	color: green;
+	border: solid black 2px;
+}
 
-		}
+.table{
+	min-height: 300px;
+	min-width: 500px;
+}
 
-		#SECTION1{
-			background: url('http://via.placeholder.com/1200x800/EE33CC/0033333?text=SECTION 1');
-			background-size: cover;
-		}
-		#SECTION3{
-			background: url('http://via.placeholder.com/1200x800/00FFFF/FFFF33?text=SECTION 3');
-			background-size: cover;
-		}
-		#SECTION5{
-			background: url('http://via.placeholder.com/1200x800/0000FF/FFFFFF');
-			background-size: cover;
-		}
-		#footer{
-			background-color: #333;
-			color: white;
-			padding: 20px;
-		}
-		.col-1{
-			width: 66%;
-			display: inline-block;
-			margin-bottom: 20px;
-		}
-		.col-2{
-			width: 33%;
-			display: inline-block;
-		}
+input[type="button"]{
+	background-color: green;
+	color: black;
+	border: solid black 2px;
+	width: 100%;
+	padding: 10px;
+}
+
+input[type="text"]{
+	background-color: whitesmoke;
+	border: solid black 2px;
+	width: 100%;
+	padding: 10px;
+}
